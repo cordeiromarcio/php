@@ -6,7 +6,7 @@ require ('partials/head.php'); ?>
 <main>
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <!-- Your content -->
-        <h1> Desculpe. Página não encontrada! </h1>
+        <h1 class="text-2xl font-bold"> Desculpe. Página não encontrada! </h1>
         <p>
             <a href="/" class="text-blue underline">Voltar para página inicial. </a>
         </p>
