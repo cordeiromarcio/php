@@ -1,5 +1,7 @@
 <?php
 
+require 'Validator.php';
+
 $config = require 'config.php';
 $db = new Database($config['database']);
 
@@ -8,15 +10,13 @@ $heading = "Criar Nota";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $errors = [];
-//validação campo em branco BD
-    if (strlen($_POST["body"]) === 0) {
-        $errors["body"] = "Por favor informe o texto.";
+
+//validação campo em branco BD e minimo e máximo de caracteres
+    if (! Validator::string($_POST["body"], 1, 1000)) {
+        $errors["body"] = "Um corpo de até no máximo 1000 caracteres é necessário.";
     }
 
-    //validação quntidade de caracteres
-    if (strlen($_POST["body"]) > 1000) {
-        $errors["body"] = "O corpo não pode ter mais de 1000 caracteres.";
-    }
+
 
     if (empty($errors)) {
 
