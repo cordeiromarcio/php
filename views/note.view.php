@@ -12,7 +12,7 @@
                 <a href="/notes" class="text-blue-500 underline">Voltar</a>
             </p>
 
-            <p> <?= $note['body'] ?> </p>
+            <p> <?= htmlspecialchars($note['body']) ?> </p>
 
         </div>
     </main>
