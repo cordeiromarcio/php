@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="092c9f36-3fc6-4317-8ae5-f69369df9a99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Validator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/note-create.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/note-create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/note-create.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/notes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/note-create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/note.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/notes.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/notes/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +68,8 @@
       <recent name="C:\laragon\www\app\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\php\views\notes" />
+      <recent name="C:\laragon\www\php\controllers\notes" />
       <recent name="C:\laragon\www\app\controllers" />
     </key>
   </component>
@@ -91,7 +98,7 @@
       <workItem from="1763343337141" duration="11010000" />
       <workItem from="1763409646079" duration="103000" />
       <workItem from="1763440100186" duration="3555000" />
-      <workItem from="1763495375635" duration="1961000" />
+      <workItem from="1763495375635" duration="7215000" />
     </task>
     <servers />
   </component>
